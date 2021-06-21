@@ -259,7 +259,7 @@
 
 @media only screen and (max-width: 992px) {
     .container-lg {
-        width: 100%;
+        width: auto;
     }
 
     [class^="grid-row-md"], 
@@ -275,7 +275,7 @@
 
 @media only screen and (max-width: 767px) {
     .container {
-        width: 100%;
+        width: auto;
     }
 
     [class^="grid-row-sm"], 
