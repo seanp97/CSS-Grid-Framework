@@ -1325,11 +1325,11 @@ ul.no-bullet {
     margin: 0 auto;
 }
 
-.text-white {
+.white {
     color: var(--white);;
 }
 
-.text-black {
+.black {
     color: var(--black);;
 }
 
@@ -1997,7 +1997,6 @@ ul.no-bullet {
 }
 
 /* Height Ends */
-
 
 
 /* Max Height */
@@ -3031,6 +3030,10 @@ ul.no-bullet {
 
 .fw-800 {
     font-weight: 800;
+}
+
+.fw-900 {
+    font-weight: 900;
 }
 
 /* Font Weights Ends */
