@@ -1022,6 +1022,56 @@ textarea, input {
 
 /* Image Ends */
 
+
+/* Ellipsis */
+
+
+[class^="ellipsis-"], 
+[class*="ellipsis-"] {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.ellipsis-1 {
+    -webkit-line-clamp: 1;
+}
+
+.ellipsis-2 {
+    -webkit-line-clamp: 2;
+}
+
+.ellipsis-3 {
+    -webkit-line-clamp: 3;
+}
+
+.ellipsis-4 {
+    -webkit-line-clamp: 4;
+}
+
+.ellipsis-5 {
+    -webkit-line-clamp: 5;
+}
+
+.ellipsis-6 {
+    -webkit-line-clamp: 6;
+}
+
+.ellipsis-7 {
+    -webkit-line-clamp: 7;
+}
+
+.ellipsis-8 {
+    -webkit-line-clamp: 8;
+}
+
+.ellipsis-9 {
+    -webkit-line-clamp: 9;
+}
+
+/* Ellipsis Ends */
+
 /* Navbar */
 
 .navbar {
