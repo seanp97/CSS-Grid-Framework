@@ -9,8 +9,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-[class^="container"], 
-[class*="container"] {
+.container {
     width: 85%;
     max-width: 1440px;
     padding-left: 15px;
