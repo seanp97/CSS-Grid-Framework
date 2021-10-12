@@ -18,6 +18,13 @@ body {
     margin: 0 auto;
 }
 
+[class^="container-full"], 
+[class*="container-full"] {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
 [class^="grid-row-"], 
 [class*="grid-row-"] {
     display: grid;
@@ -901,7 +908,7 @@ textarea, input {
 
 .img-full {
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 .img-round {
