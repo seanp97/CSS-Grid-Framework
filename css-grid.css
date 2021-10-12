@@ -997,6 +997,29 @@ textarea, input {
     filter: brightness(0.9);
 }
 
+.img-center-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.img-center-wrapper img {
+    width: 100%;
+    height: auto;
+}
+
+.img-center-wrapper h1,
+.img-center-wrapper h2,
+.img-center-wrapper h3,
+.img-center-wrapper h4,
+.img-center-wrapper h5,
+.img-center-wrapper h6,
+.img-center-wrapper p,
+.img-center-wrapper span {
+    position: absolute;
+}
+
 /* Image Ends */
 
 /* Navbar */
