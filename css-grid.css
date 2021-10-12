@@ -34,26 +34,29 @@ body {
 /* Heading */
 
 h1 {
-    font-size: 2em
+    font-size: 3em
 }
 
 h2 {
-    font-size: 1.5em
+    font-size: 2.5em
 }
 
 h3 {
-    font-size: 1.17em
+    font-size: 2em
 }
 
-h4 {
-    font-size: 1em
+h4,
+a,
+p {
+    font-size: 1.75em
 }
 
 h5 {
-    font-size: 0.83em
+    font-size: 1.5em
 }
+
 h6 {
-    font-size: 0.75em
+    font-size: 1.25em
 }
 
 /* Headings Ends */
@@ -62,6 +65,7 @@ h6 {
 
 a {
     text-decoration: underline;
+    color: #000;
 }
 
 a:hover {
