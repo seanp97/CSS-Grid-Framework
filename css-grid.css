@@ -567,6 +567,10 @@ ul.no-bullet {
 
 /* Row Spacing */
 
+.row-spacing-5 {
+    row-gap: 5px;
+}
+
 .row-spacing-10 {
     row-gap: 10px;
 }
@@ -610,6 +614,10 @@ ul.no-bullet {
 /* Row Spacing Ends */
 
 /* Column Spacing */
+
+.col-spacing-5 {
+    column-gap: 5px;
+}
 
 .col-spacing-10 {
     column-gap: 10px;
