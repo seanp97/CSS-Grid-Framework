@@ -825,7 +825,15 @@ a {
 
 /* HREF Ends */
 
-.underline-hover {
+.underline {
+    text-decoration: underline;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+.underline-hover:hover {
     text-decoration: underline;
 }
 
@@ -1235,10 +1243,6 @@ ul.no-bullet {
 
 .text-upper {
     text-transform: uppercase;
-}
-
-.text-underline {
-    text-decoration: underline;
 }
 
 .cursor-pointer {
