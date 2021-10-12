@@ -899,13 +899,95 @@ textarea, input {
 
 /* Image */
 
-.img {
+.img-full {
     width: 100%;
     height: 100%;
 }
 
 .img-round {
     border-radius: 25px;
+}
+
+[class^="img-overlay"], 
+[class*="img-overlay"] {
+    background-color: #000;
+    transition: 0.5s;
+}
+
+.img-border-white-1 {
+    border: 1px solid #FFF;
+}
+
+.img-border-white-2 {
+    border: 2px solid #FFF;
+}
+
+.img-border-white-3 {
+    border: 3px solid #FFF;
+}
+
+.img-border-white-4 {
+    border: 4px solid #FFF;
+}
+
+.img-border-white-5 {
+    border: 5px solid #FFF;
+}
+
+.img-border-black-1 {
+    border: 1px solid #000;
+}
+
+.img-border-black-2 {
+    border: 2px solid #000;
+}
+
+.img-border-black-3 {
+    border: 3px solid #000;
+}
+
+.img-border-black-4 {
+    border: 4px solid #000;
+}
+
+.img-border-black-5 {
+    border: 5px solid #000;
+}
+
+.img-overlay-1:hover {
+    filter: brightness(0.1);
+}
+
+.img-overlay-2:hover {
+    filter: brightness(0.2);
+}
+
+.img-overlay-3:hover {
+    filter: brightness(0.3);
+}
+
+.img-overlay-4:hover {
+    filter: brightness(0.4);
+}
+
+.img-overlay-5:hover {
+    filter: brightness(0.5);
+}
+
+.img-overlay-6:hover {
+    filter: brightness(0.6);
+}
+
+.img-overlay-7:hover {
+    filter: brightness(0.7);
+}
+
+.img-overlay-8:hover {
+    filter: brightness(0.8);
+}
+
+.img-overlay-9:hover {
+    filter: brightness(0.9);
 }
 
 /* Image Ends */
