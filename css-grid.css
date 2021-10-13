@@ -892,67 +892,67 @@ a {
 .grid-row-lg-2,
 .grid-row-md-2,
 .grid-row-sm-2  {
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .grid-row-lg-3,
 .grid-row-md-3,
 .grid-row-sm-3  {
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .grid-row-lg-4,
 .grid-row-md-4,
 .grid-row-sm-4  {
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .grid-row-lg-5,
 .grid-row-md-5,
 .grid-row-sm-5  {
-    grid-template-columns: repeat(5, auto);
+    grid-template-columns: repeat(5, minmax(0, 1fr));
 }
 
 .grid-row-lg-6,
 .grid-row-md-6,
 .grid-row-sm-6  {
-    grid-template-columns: repeat(6, auto);
+    grid-template-columns: repeat(6, minmax(0, 1fr));
 }
 
 .grid-row-lg-7,
 .grid-row-md-7,
 .grid-row-sm-7  {
-    grid-template-columns: repeat(7, auto);
+    grid-template-columns: repeat(7, minmax(0, 1fr));
 }
 
 .grid-row-lg-8,
 .grid-row-md-8,
 .grid-row-sm-8  {
-    grid-template-columns: repeat(8, auto);
+    grid-template-columns: repeat(8, minmax(0, 1fr));
 }
 
 .grid-row-lg-8,
 .grid-row-md-9,
 .grid-row-sm-9  {
-    grid-template-columns: repeat(9, auto);
+    grid-template-columns: repeat(9, minmax(0, 1fr));
 }
 
 .grid-row-lg-10,
 .grid-row-md-10,
 .grid-row-sm-10  {
-    grid-template-columns: repeat(10, auto);
+    grid-template-columns: repeat(10, minmax(0, 1fr));
 }
 
 .grid-row-lg-11,
 .grid-row-md-11,
 .grid-row-sm-11  {
-    grid-template-columns: repeat(11, auto);
+    grid-template-columns: repeat(11, minmax(0, 1fr));
 }
 
 .grid-row-lg-12,
 .grid-row-md-12,
 .grid-row-sm-12  {
-    grid-template-columns: repeat(12, auto);
+    grid-template-columns: repeat(12, minmax(0, 1fr));
 }
 
 .grid-row-lg-13,
