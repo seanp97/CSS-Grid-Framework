@@ -3675,7 +3675,7 @@ a {
 @media only screen and (max-width: 1450px) {
     [class^="grid-row-lg"], 
     [class*="grid-row-lg"] {
-        grid-template-columns: repeat(4, auto);
+        grid-template-columns: repeat(4, minmax(0, 1fr));
     } 
 
     .grid-column-start-1-lg,
@@ -3757,12 +3757,12 @@ a {
 @media only screen and (max-width: 1250px) {
     [class^="grid-row-lg"], 
     [class*="grid-row-lg"] {
-        grid-template-columns: repeat(2, auto);
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     } 
 
     [class^="grid-row-md"], 
     [class*="grid-row-md"] {
-        grid-template-columns: repeat(4, auto);
+        grid-template-columns: repeat(4, minmax(0, 1fr));
     } 
 
     .grid-column-start-1-md,
@@ -3848,12 +3848,12 @@ a {
 
     [class^="grid-row-md"], 
     [class*="grid-row-md"] {
-        grid-template-columns: repeat(2, auto);
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     } 
 
     [class^="grid-row-sm"], 
     [class*="grid-row-sm"] {
-        grid-template-columns: repeat(4, auto);
+        grid-template-columns: repeat(4, minmax(0, 1fr));
     } 
 
 
@@ -3941,7 +3941,7 @@ a {
 
     [class^="grid-row-sm"], 
     [class*="grid-row-sm"] {
-        grid-template-columns: repeat(2, auto);
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     } 
 
     .screen-gap-10 {
